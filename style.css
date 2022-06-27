@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* scroll bar  */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(110, 110, 110);
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(0, 0, 0);
+} 
+::webkit-scrollbar-thumb:hover {
+    background: grey;
+}
+
+/* background image */
+.hero {
+    width: 100%;
+    height: 100vh;
+}
+
+.hero img {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+}
+
+/* 'hello im kenan kong' */
+.container {
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+    z-index: 100;
+
+}
+
+h1 {
+    font-size: 75px;
+}
+
+
+h2 {
+    font-size: 90px;
+    margin: 10px 0 30px;
+    line-height: 80px;
+}
+
+/* about me button was kinda was running into some road blocks */
+.button {
+display: inline-flex;
+align-items: center;
+justify-content: center;
+position: absolute;
+top: 65%;
+left: 8%;
+color: rgb(63, 60, 63);
+padding: 0.7rem 2rem;
+font-weight: 700;
+font-size: 18px;
+text-align: center;
+text-decoration: none;
+backface-visibility: hidden;
+border: 0.3rem solid transparent;
+border-radius: 3rem;
+border-color: white;
+transition: transform 0.2s cubic-bezier(0.235, 0, 0.05, 0.95);
+}
+
+/* about me button effect */
+.button:hover {
+    transform: perspective(1px) scale3d(1.044, 1.044, 1) translateZ(0) !important;
+    
+}
+
+.learn-more {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Lato', sans-serif;
+}
+
+#middle {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    height: 800px;
+    width: 99em;
+
+}
+
+/* middle page */
+
+.about {
+    width: 100%;
+    padding: 100px 0;
+    background-color: #DAEAF1;
+}
+
+.about img {
+    height: auto;
+    width: 430px;
+}
+
+.about-text {
+    width: 550px;
+}
+
+.main {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-text h3 {
+    color: rgb(0, 0, 0);
+    font-size: 65px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    color: rgb(0, 0, 0);
+    font-size: 28px;
+    margin-bottom: 45px;
+    letter-spacing: 1px;
+    line-height: 28px;
+}
+.projects {
+    width: 100%;
+    padding: 100px 0;
+    background-color: #DAEAF1;
+}
+
+.icons img {
+    width: 57px;
+    height: 62px;
+    margin: 0 25px 0 0;
+}
+/* .about img {
+    height: auto;
+    width: 430px;
+} */
+
+.projects-text {
+    width: 550px;
+}
+
+.secondary {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.connect h4 {
+    color: rgb(0, 0, 0);
+    font-size: 65px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.projects-text p {
+    color: rgb(0, 0, 0);
+    font-size: 28px;
+    margin-bottom: 45px;
+    letter-spacing: 1px;
+    line-height: 28px;
+}
