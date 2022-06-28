@@ -89,7 +89,6 @@ backface-visibility: hidden;
 border: 0.3rem solid transparent;
 border-radius: 3rem;
 border-color: white;
-transition: transform 0.2s cubic-bezier(0.235, 0, 0.05, 0.95);
 }
 
 /* about me button effect */
