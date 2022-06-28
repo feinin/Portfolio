@@ -51,7 +51,7 @@ body {
 
 /* 'hello im kenan kong' */
 .container {
-    color: #ffffff;
+    color: #2336a3;
     position: absolute;
     top: 50%;
     left: 8%;
@@ -79,7 +79,7 @@ justify-content: center;
 position: absolute;
 top: 65%;
 left: 8%;
-color: rgb(63, 60, 63);
+color: #737a9e;
 padding: 0.7rem 2rem;
 font-weight: 700;
 font-size: 18px;
@@ -88,7 +88,7 @@ text-decoration: none;
 backface-visibility: hidden;
 border: 0.3rem solid transparent;
 border-radius: 3rem;
-border-color: white;
+border-color: #737a9e;
 }
 
 /* about me button effect */
