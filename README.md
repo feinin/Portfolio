@@ -30,18 +30,11 @@ i had ALOT of issues and roadblock when coding it, took many breaks and meditati
 - CSS was geting kind stressful because of flex: grid: etc. placing everything how i wanted when have OCD
 - JAVASCRIPT didnt used mush but tried to figure out a way of using it for the website probably for a sticky navbar or something i haven't thought about yet
 
-![1b2ccf8c497bb1aa99b65040cdd9f592](https://user-images.githubusercontent.com/101943583/176082510-dd763bcc-29f7-468b-9eb1-0c266c7c5392.jpg)
 
-
-![88d2c92fb05d4b2daaf2e320b0cc4eb1](https://user-images.githubusercontent.com/101943583/176082545-85f0da38-9d0f-4d9a-91c8-9ab50170c478.png)
-
-
-![11d2062efed19bb3608cb8a197b453bd](https://user-images.githubusercontent.com/101943583/176082533-246723b4-2f2c-46fc-a7a6-0e29a7027ed8.png)
+![1b2ccf8c497bb1aa99b65040cdd9f592](https://user-images.githubusercontent.com/101943583/176097954-75a2757c-2cd7-425f-b628-c647ed9ec0cc.jpg)
 
 
 
+![88d2c92fb05d4b2daaf2e320b0cc4eb1](https://user-images.githubusercontent.com/101943583/176097963-0726aa81-c00a-4cd7-abfb-afff0d18b12d.png)
 
-
-
-
-
+![11d2062efed19bb3608cb8a197b453bd](https://user-images.githubusercontent.com/101943583/176097972-a6b49082-f4bc-4a20-b2bd-e1562f219e15.png)
