@@ -12,23 +12,26 @@ body {
     flex-direction: column; */
 }
 
-/* scroll bar  */
+/* had to do a little google search and dev looking to get the scroll bar i wanted */
 ::-webkit-scrollbar {
     width: 10px;
 }
 
+/* background color */
 ::-webkit-scrollbar-track {
     background: rgb(110, 110, 110);
 }
 
+/* color of the scroll bar */
 ::-webkit-scrollbar-thumb {
     background: rgb(0, 0, 0);
 } 
+/* don't know why its red to be honest still looking into it */
 ::webkit-scrollbar-thumb:hover {
     background: grey;
 }
 
-/* background image */
+/* background */
 .hero {
     width: 100%;
     height: 100vh;
@@ -38,6 +41,7 @@ body {
     flex-direction: column; */
 }
 
+/* lighthouse image */
 .hero img {
     width: 100%;
     height: 100vh;
@@ -49,7 +53,7 @@ body {
     flex-direction: column;
 }
 
-/* 'hello im kenan kong' */
+/* a little intro about myself */
 .container {
     color: #2336a3;
     position: absolute;
@@ -71,7 +75,7 @@ h2 {
     line-height: 80px;
 }
 
-/* about me button was kinda was running into some road blocks */
+/* 'About Me' button i was kinda was running into some road blocks trying to figure it out myself but i feel like another container is nesting on to this so i didn't want to mess with it after getting it graded i know theres alot but it works !*/
 .button {
 display: inline-flex;
 align-items: center;
@@ -91,18 +95,19 @@ border-radius: 3rem;
 border-color: #737a9e;
 }
 
-/* about me button effect */
+/* about me button effect have like a blurry when hovering over it did some google search  */
 .button:hover {
     transform: perspective(1px) scale3d(1.044, 1.044, 1) translateZ(0) !important;
     
 }
 
+/* taking out those underlines  */
 .learn-more {
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-family: 'Lato', sans-serif;
 }
-
+/* honestly this shouldn't be here but i left it, i shoulda comment it out but i just leave it for now xD */
 #middle {
     display: flex;
     align-self: center;
@@ -112,7 +117,7 @@ border-color: #737a9e;
 
 }
 
-/* middle page */
+/* middle section 'About Me' */
 
 .about {
     width: 100%;
@@ -120,15 +125,18 @@ border-color: #737a9e;
     background-color: #DAEAF1;
 }
 
+/* image of myself  */
 .about img {
     height: auto;
     width: 430px;
 }
 
+/* About Me header text */
 .about-text {
     width: 550px;
 }
 
+/* nav bar */
 #navbar {
     position: relative;
     display: flex;
@@ -136,7 +144,7 @@ border-color: #737a9e;
     align-items: center;
     margin-bottom: 90px;
 }
-
+/* nav bar text */
 #navbar a {
     font-size: 35px;
     font-weight: 500;
@@ -147,9 +155,12 @@ border-color: #737a9e;
     text-transform: capitalize;
 }
 
+/* when hovering over the nav bar text */
 #navbar a:hover {
     color: rgb(1, 116, 211);
 }
+
+/* second section  */
 .main {
     width: 1130px;
     max-width: 95%;
@@ -159,6 +170,7 @@ border-color: #737a9e;
     justify-content: space-around;
 }
 
+/* About Me Header/Title */
 .about-text h3 {
     color: rgb(0, 0, 0);
     font-size: 65px;
@@ -166,6 +178,7 @@ border-color: #737a9e;
     margin-bottom: 20px;
 }
 
+/* my bio text  */
 .about-text p {
     color: rgb(0, 0, 0);
     font-size: 28px;
@@ -173,12 +186,15 @@ border-color: #737a9e;
     letter-spacing: 1px;
     line-height: 28px;
 }
+
+/* third section connect/links */
 .connect {
     width: 100%;
     padding: 100px 0;
     background-color: #DAEAF1;
 }
 
+/* icon images  */
 .icons img {
     width: 60px;
     height: 63px;
@@ -193,6 +209,7 @@ border-color: #737a9e;
     width: 600px;
 } */
 
+/* div class feel like it wasn't i didn't need it*/
 .secondary {
     width: 1130px;
     max-width: 95%;
@@ -202,6 +219,7 @@ border-color: #737a9e;
     justify-content: space-around; */
 }
 
+/* 'want to connect ?' text */
 .connect h4 {
     color: rgb(0, 0, 0);
     font-size: 65px;
@@ -209,14 +227,16 @@ border-color: #737a9e;
     align-items: center;
 }
 
-.connect-text p {
+/* was going to add a little title for each link but rather have icon to explain for itself */
+/* .connect-text p {
     color: rgb(0, 0, 0);
     font-size: 28px;
     margin-bottom: 45px;
     letter-spacing: 1px;
     line-height: 28px;
-}
+} */
 
+/* social icon */
 .social-list {
     display: flex;
     justify-content: space-between;
