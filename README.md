@@ -3,6 +3,11 @@
 # Wrieframe/Design
 when design this in my head and on goodle slide the first design the layout came out great but when it came down to coding it was dificult to get the nav bar in the middle and be responsive so i did a whole new design a simple and clean kinda look.
 
+# What i use
+HTML
+CSS
+JavaScript( didn't use much of it ): )
+
 # MVP
 - wellcome page
 - links
@@ -15,6 +20,11 @@ when design this in my head and on goodle slide the first design the layout came
 - finishing up projects to add on my website
 - want to learn add animated backgrounds
 - use 3d blender for a background image or something else (still don't know what to do with it need ideas)
+
+# User Stories 
+- user will see a little what i like and how simple a person i am when looking at my website
+- having easy access to the website finding where to go how easy it is to read where to go or who i am 
+- most website should be easy but creative and fun to look at in my opinon because no one wants to look at a bright non readable website
 
 # Issues 
 while coding and trying to make eveything how i wanted it to be i say CSS was the place that had me stressing out the most, im still working on how to get the nav bar to stick so when scrolling down the page the nav bar will still be on top of the browser and easy to back to the top
