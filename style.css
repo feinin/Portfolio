@@ -1,3 +1,51 @@
+@media screen and (max-width: 820px){
+    .hero img {
+        width: 820px;
+        height: 1403vh;
+        background-size: cover;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #selfie {
+        max-height: 3000px;
+        max-width: 130px;
+    }
+    
+
+    .social-list a {
+        display: flex;
+        justify-content: space-around;
+        margin: 100px 100px;
+        max-width: 10px;
+        max-height: 200px;
+    }
+
+    .button1 {
+        background-color: #DAEAF1;
+        border: none;
+        color: black;
+        padding: 15px 1000px;
+        text-align: center;
+        text-decoration: none;
+        display: flex;
+        /* font-size: 10px; */
+        /* margin: 10px; */
+        margin-right: 100px;
+        /* cursor: pointer; */
+        align-items: center;
+        justify-content: center;
+        display: absolute;
+        left: 12%;
+    }
+}
+
+
+
+
 * {
     margin: 0;
     padding: 0;
@@ -27,9 +75,9 @@ body {
     background: rgb(0, 0, 0);
 } 
 /* don't know why its red to be honest still looking into it */
-::webkit-scrollbar-thumb:hover {
+/* ::webkit-scrollbar-thumb:hover {
     background: grey;
-}
+} */
 
 /* background */
 .hero {
@@ -240,5 +288,53 @@ border-color: #737a9e;
 .social-list {
     display: flex;
     justify-content: space-between;
-    margin: 110px 10px;
+    margin: 100px 10px;
 }
+
+/* fourth section */
+.forms {
+    width: 100%;
+    padding: 10px 0;
+    background-color: #DAEAF1;
+}
+/* font size first & last name */
+.forms {
+    font-size: 20px;
+}
+
+.button2 {
+    background-color: #DAEAF1;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 23px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button1 {
+    background-color: #DAEAF1;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: absolute;
+    font-size: 60px;
+    margin: 50px;
+    margin-left: 580px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+p {
+    font-size: 100px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+

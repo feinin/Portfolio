@@ -40,7 +40,7 @@
                 <a href="#">PROJECTS</a>
         </nav>
         <div class="main">
-            <img src="IMG_4222.jpg" alt="/">
+            <img src="IMG_4222.jpg" alt="/" id="selfie"=>
             <div class="about-text">
             <h3 >About Me</h3>
             <!-- BIO -->
@@ -60,15 +60,27 @@
         <div class="-secondary">
             <div class="connect-text">
                 <h4>Want To Connect ?</h4>
+                <!-- <div id="box">Try Me !</div> -->
+                <button class="button2" onclick="why()">Click for Contact</button>
                 <div class="social-list">
                     <!-- social icon links  -->
-                    <a href="https://www.linkedin.com/in/kenan-kong-1b538a213/" target="_blank"><img src="linkedin.png" width="245px"></a>
-                    <a href="https://github.com/feinin" target="_blank"><img src="github.png" width="245px"></a>
-                    <a href="" target="_blank"><img src="email.png" width="245px"></a>
-                    <a href="https://docs.google.com/document/d/1ySz5rPBxgsFAiqzFLTlbIArIhQ7BWf_Ax98-Zr5JGQE/edit" target="_blank"><img src="cv.png" width="245px"></a>
+                    <a href="https://www.linkedin.com/in/kenan-kong-1b538a213/" target="_blank"><img src="linkedin.png" width="145px"></a>
+                    <a href="https://github.com/feinin" target="_blank"><img src="github.png" width="145px"></a>
+                    <a href="" target="_blank"><img src="email.png" width="145px"></a>
+                    <a href="https://docs.google.com/document/d/1ySz5rPBxgsFAiqzFLTlbIArIhQ7BWf_Ax98-Zr5JGQE/edit" target="_blank"><img src="cv.png" width="145px"></a>
                 </div>
             </div>
         </div>
+    </section>
+    <section class="forms">
+        <form id="myForm" action="/action_page.php">
+            First name: <input type="text" name="fname">
+            Last name: <input type="text" name="lname">
+            <input type="button" onclick="mySubmit()" value="Submit">
+        </form>
+        <input type="hidden" id="myInput" value="BYE HAVE A GOOD TIME!">
+        <button class="button1" onclick="myGood()">Click For Goodbyes !</button>
+        <p id="demo"></p>
     </section>
 </body>
 </html>
