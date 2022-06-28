@@ -17,3 +17,6 @@ when design this in my head and on goodle slide the first design the layout came
 
 # Issues 
 while coding and trying to make eveything how i wanted it to be i say CSS was the place that had me stressing out the most, im still working on how to get the nav bar to stick so when scrolling down the page the nav bar will still be on top of the browser and easy to back to the top
+
+# Anything else
+i am still going to work on my website during my course at General Assembly i am ot statisfied how it came out and there's ALOT more i can learn and code to have the website how i wanted to be.
